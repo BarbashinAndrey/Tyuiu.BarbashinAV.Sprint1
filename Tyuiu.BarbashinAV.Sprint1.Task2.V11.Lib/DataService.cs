@@ -3,6 +3,6 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 public class DataService : ISprint1Task2V11
 {
-    public int Calculate(int value, int valueTwo)
+    public int ConvertHoursMinutesToSeconds(int value, int valueTwo)
         => value * 60 * 60 + valueTwo * 60;
 }

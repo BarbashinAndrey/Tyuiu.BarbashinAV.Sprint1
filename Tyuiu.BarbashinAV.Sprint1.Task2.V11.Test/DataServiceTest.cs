@@ -8,6 +8,6 @@ public class DataServiceTest
     [TestMethod]
     public void ValidExpression()
     {
-        Assert.AreEqual(49920, new DataService().Calculate(13, 52));
+        Assert.AreEqual(49920, new DataService().ConvertHoursMinutesToSeconds(13, 52));
     }
 }
