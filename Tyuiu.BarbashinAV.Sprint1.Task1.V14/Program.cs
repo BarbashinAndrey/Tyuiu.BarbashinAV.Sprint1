@@ -10,8 +10,8 @@ class Program
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* Спринт #1                                                            *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                     *");
-        Console.WriteLine("* Задание #0                                                           *");
-        Console.WriteLine("* Вариант #29                                                          *");
+        Console.WriteLine("* Задание #1                                                           *");
+        Console.WriteLine("* Вариант #14                                                          *");
         Console.WriteLine("* Выполнил: Барбашин Андрей Владиславович | ИИПб-24-1                  *");
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                             *");
