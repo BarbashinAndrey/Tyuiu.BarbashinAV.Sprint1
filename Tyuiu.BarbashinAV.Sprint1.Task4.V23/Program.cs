@@ -9,7 +9,7 @@ class Program
         Console.Title = "Спринт #1 | Выполнил: Барбашин А. В. | ИИПб-24-1";
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* Спринт #1                                                            *");
-        Console.WriteLine("* Тема: Операторы составного присваивания                              *");
+        Console.WriteLine("* Тема: Class Math                                                     *");
         Console.WriteLine("* Задание #4                                                           *");
         Console.WriteLine("* Вариант #23                                                          *");
         Console.WriteLine("* Выполнил: Барбашин Андрей Владиславович | ИИПб-24-1                  *");
