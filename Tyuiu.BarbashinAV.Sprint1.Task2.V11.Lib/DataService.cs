@@ -1,5 +1,6 @@
-﻿namespace Tyuiu.BarbashinAV.Sprint1.Task2.V11.Lib;
-using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.BarbashinAV.Sprint1.Task2.V11.Lib;
 
 public class DataService : ISprint1Task2V11
 {
