@@ -5,7 +5,7 @@ using Tyuiu.BarbashinAV.Sprint1.Task1.V14.Lib;
 public class DataServiceTest
 {
     [TestMethod]
-    public void TestMethod1()
+    public void ValidExpression()
     {
         Assert.AreEqual(1.5, new DataService().Calculate(1, 1, 1));
     }

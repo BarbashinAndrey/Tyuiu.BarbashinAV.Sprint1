@@ -21,13 +21,18 @@ class Program
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                     *");
         Console.WriteLine("************************************************************************");
-        Console.WriteLine("* a=1                                                                  *");
-        Console.WriteLine("* b=1                                                                  *");
-        Console.WriteLine("* c=1                                                                  *");
+
+        Console.WriteLine("Введите значение A:");
+        int a = int.Parse(Console.ReadLine()!);
+        Console.WriteLine("Введите значение B:");
+        int b = int.Parse(Console.ReadLine()!);
+        Console.WriteLine("Введите значение C:");
+        int c = int.Parse(Console.ReadLine()!);
+
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
         Console.WriteLine("************************************************************************");
-        Console.WriteLine(new DataService().Calculate(1, 1, 1));
+        Console.WriteLine(new DataService().Calculate(a, b, c));
         Console.ReadKey();
     }
 }
