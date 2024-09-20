@@ -30,7 +30,7 @@ class Program
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
         Console.WriteLine("************************************************************************");
-        Console.WriteLine($"Количество секунд = {new DataService().CylinderVolume(r, h)}");
+        Console.WriteLine($"Объём цилиндра = {new DataService().CylinderVolume(r, h)}");
         Console.ReadKey();
     }
 }
