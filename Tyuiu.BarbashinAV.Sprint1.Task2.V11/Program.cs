@@ -31,7 +31,7 @@ class Program
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
         Console.WriteLine("************************************************************************");
-        Console.WriteLine(new DataService().Calculate(x, y));
+        Console.WriteLine($"Количество секунд = {new DataService().Calculate(x, y)}");
         Console.ReadKey();
     }
 }
